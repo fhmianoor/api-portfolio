@@ -6,22 +6,22 @@ module.exports = {
       {
         title: 'Capstone Project Dicoding',
         description: 'Proyek kelompok akhir dari bootcamp yang di naungi oleh dicoding. Proyek ini terdapat fitur utama dan tambahan, fitur utama yaitu integrasi dengan model machine learning dan fitur tambahan backend dengan express, seperti (register, login, dictionary dan about)',
-        tech: 'Node.js, Express, MySQL, Python',
-        repo: '',
+        tech: 'Node.js, Express, MySQL',
+        repo: 'https://github.com/orgs/e-Syarat/dashboard',
         year: 2025
       },
       {
-        title: 'Jokiin-ID Website',
-        description: 'Landing page kompleks untuk jasa joki tugas dengan fitur service dan testimonial.',
-        tech: 'HTML, CSS, Bootstrap, JavaScript',
-        repo: 'https://github.com/fahmianoor/jokiin-id',
-        year: 2024
+        title: 'Story App Dicoding',
+        description: 'Web App berbagi cerita yang dibuat sebagai tugas akhir dari kelas Belajar Membuat Aplikasi Web dengan js vanila dan webpack untuk bundling di Dicoding. Aplikasi ini memungkinkan pengguna untuk membuat, membaca, mengedit, dan menghapus cerita.',
+        tech: 'HTML, CSS, JavaScript',
+        repo: 'https://github.com/fhmianoor/storyapp',
+        year: 2025
       },
       {
-        title: 'Sistem Deteksi Pencucian Uang',
-        description: 'Integrasi Autoencoder dan REST API untuk deteksi anomali pada transaksi keuangan.',
-        tech: 'Node.js, TensorFlow.js, MongoDB',
-        repo: 'https://github.com/fahmianoor/aml-anomaly-detector',
+        title: 'Portfolio API',
+        description: 'API untuk mengelola data portofolio pribadi, termasuk informasi tentang diri saya, keterampilan, proyek, dan sertifikat. API ini memungkinkan pengguna untuk mengambil dan memperbarui informasi portofolio.',
+        tech: 'Node.js, Express, Sequelize, MySQL',
+        repo: 'https://github.com/fhmianoor/api-portfolio',
         year: 2025
       }
     ], {});

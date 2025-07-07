@@ -8,7 +8,7 @@ module.exports = {
         school: 'Sekolah Tinggi Teknologi Cipasung',
         major: 'Teknik Informatika',
         degree: 'Sarjana (S1)',
-        gpa: 3.33,
+        gpa: 3.44,
         start: 2022,
         end: 2026
       }

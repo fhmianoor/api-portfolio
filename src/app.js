@@ -27,14 +27,14 @@ app.use(
     },
   })
 );
-app.use(
-  "/testimonials",
-  express.static(path.join(__dirname, "./assets/testimonial"), {
-    setHeaders: (res, path) => {
-      res.set("Cross-Origin-Resource-Policy", "cross-origin");
-    },
-  })
-);
+// app.use(
+//   "/testimonials",
+//   express.static(path.join(__dirname, "./assets/testimonial"), {
+//     setHeaders: (res, path) => {
+//       res.set("Cross-Origin-Resource-Policy", "cross-origin");
+//     },
+//   })
+// );
 
 
 app.use("/api", router);

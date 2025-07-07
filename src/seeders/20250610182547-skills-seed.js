@@ -3,15 +3,39 @@
 /** @type {import('sequelize-cli').Migration} */
 module.exports = {
   async up (queryInterface, Sequelize) {
-    await queryInterface.bulkInsert('People', [
+    await queryInterface.bulkInsert('skills', [
       {
         category:'Backend',
-        items:'Express'
+        items:'ExpressJS/NodeJS/Restful API'
       },
       {
         category:'Backend',
-        items:'Laravel'
-      }
+        items:'Laravel/Restful API'
+      },
+      {
+        category:'Frontend',
+        items:'HTML'
+      },
+      {
+        category:'Frontend',
+        items:'CSS/Tailwind CSS/Bootstrap'
+      },
+      {
+        category:'Frontend',
+        items:'JavaScript'
+      },
+      {
+        category:'Database',
+        items:'MongoDB'
+      },
+      {
+        category:'Database',
+        items:'MySQL'
+      },
+      {
+        category:'Database',
+        items:'PostgreSQL'
+      },
     ], {});
     
   },
