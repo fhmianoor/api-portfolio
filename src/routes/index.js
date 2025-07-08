@@ -3,11 +3,13 @@ const {getSkills} = require('../controllers/skillsController.js');
 const {getSocial} = require('../controllers/socialsController.js');
 const {getProjects} = require('../controllers/projectsController.js');
 const {getEducations} = require('../controllers/educationsController.js');
+const {homeController} = require('../controllers/homeController.js');
 // const {getTestimonials} = require('../controllers/testimonialsController.js');
 const {getCertificates} = require('../controllers/certificatesController.js');
 const express = require('express');
 const router = express.Router();
 
+router.get('/',homeController);
 router.get('/about', getAbout);
 router.get('/skills', getSkills);
 router.get('/socials', getSocial);
