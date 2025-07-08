@@ -36,7 +36,7 @@ module.exports = {
       },
       {
         title: 'Alibaba Cloud Certification',
-        issuer: 'Dicoding Indonesia',
+        issuer: 'CodePolitan X Alibaba Cloud',
         image: 'ALIBABA CLOUD.jpg'
       }
     ], {});
